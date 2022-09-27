@@ -1,0 +1,45 @@
+//? == Vars ==
+
+//* -- Colors --
+$PrimaryGreen: #29a19c;
+$PrimaryYellow: #ecca75;
+$PrimaryRed: #f05454;
+
+$White: #ffffff;
+$Black: #000000;
+$Gray: #939393;
+
+$Pink: #aa367c;
+$Purple: #4a2fbd;
+
+$Dark: #121212;
+
+//* -- Gradients --
+$MainGradient: linear-gradient(
+	90deg,
+	rgba($Pink, 0.5) 0%,
+	rgba($Purple, 0.5) 100%
+);
+
+//* -- Shadows --
+$SmoothShadow: 0px 10px 25px rgba(29, 52, 54, 0.08);
+
+//* -- Transitions --
+$trans: 0.32s ease-in-out;
+$trans-fast: 0.18s ease-in-out;
+$trans-slow: 0.4s ease-in-out;
+
+// $Color-Gray-1: #000000;
+// $MainText: #f1f1f1;
+// $SecondaryText: #888888;
+
+
+
+:root {
+	--dark: #070707;
+	--light: #fff;
+
+	--size-index: calc(1vw + 1vh);
+	--transition: 0.3s cubic-bezier(0.2, 0.6, 0, 1);
+	--transition-2: 0.75s cubic-bezier(0.2, 0.6, 0, 1);
+}

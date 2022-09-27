@@ -1,0 +1,32 @@
+.App {
+	width: 100%;
+	height: 100%;
+}
+
+.slider {
+	height: 100%;
+
+	top: 10vh;
+
+	overflow: visible !important;
+	transform: rotate(15deg);
+
+	& > ul {
+		transition: var(--transition) !important;
+
+		will-change: transform;
+	}
+}
+
+.slider--bg {
+	height: 100%;
+	z-index: 0 !important;
+
+	transform: rotate(-20deg) !important;
+
+	top: -95vh;
+	left: -10vh;
+
+	// filter: blur(120px) saturate(10);
+	opacity: 0.15;
+}

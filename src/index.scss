@@ -1,0 +1,17 @@
+@import './scss/normalize';
+
+body {
+	font-family: raleway_m, sans-serif;
+	font-size: calc(var(--size-index) * 0.8);
+	font-weight: 300;
+	line-height: 1.8;
+	color: var(--light);
+
+	background-color: var(--dark);
+	overflow: hidden;
+}
+
+#root {
+	height: 100vh;
+	width: 100vw;
+}
